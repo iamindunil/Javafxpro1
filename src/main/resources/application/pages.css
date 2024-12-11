@@ -1,0 +1,7 @@
+.panex1{
+    -fx-background-radius:  20px;
+    -fx-border-radius: 20px;
+    -fx-background-image: url("movieimg.jpg");
+    -fx-background-size: cover;           /* Resize to fit the pane */
+    -fx-opacity: 0.2;
+}

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1280.0" styleClass="pane1" stylesheets="@page.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="768.0" prefWidth="1280.0" styleClass="panex1" stylesheets="@pages.css" />
+      <Label fx:id="Movietag" layoutX="33.0" layoutY="14.0" prefHeight="90.0" prefWidth="1215.0" styleClass="label1" stylesheets="@page.css" text="Movie" textAlignment="CENTER">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <ScrollPane fx:id="scrollpane" layoutX="-8.0" layoutY="106.0" prefHeight="669.0" prefWidth="1290.0" style="-fx-opacity: 0.8;" styleClass="pane1" stylesheets="@page.css">
+        <content>
+          <AnchorPane fx:id="anchorPane2" minHeight="0.0" minWidth="0.0" prefHeight="779.0" prefWidth="1275.0" styleClass="pane1" stylesheets="@page.css">
+               <children>
+                  <Group layoutX="39.0" layoutY="14.0">
+                     <children>
+                        <Label prefHeight="34.0" prefWidth="250.0" text="Movie name                       - " textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutY="51.0" prefHeight="34.0" prefWidth="250.0" text="Imdb                                  - " textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutY="102.0" prefHeight="34.0" prefWidth="250.0" text="Mal                                     - " textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutY="311.0" prefHeight="34.0" prefWidth="250.0" text="Movie Genres                     -" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutY="204.0" prefHeight="34.0" prefWidth="250.0" text="Writers                                -" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutY="153.0" prefHeight="34.0" prefWidth="250.0" text="Directors                            - " textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="Char1" layoutY="259.0" prefHeight="34.0" prefWidth="250.0" text="Characters                          - " textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutY="359.0" prefHeight="34.0" prefWidth="250.0" text="Country of origin                -" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutY="402.0" prefHeight="34.0" prefWidth="250.0" text="Languages                          -" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutY="455.0" prefHeight="34.0" prefWidth="250.0" text="Production companies        -" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutY="502.0" prefHeight="34.0" prefWidth="250.0" text="Runtime                              -" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutY="555.0" prefHeight="34.0" prefWidth="250.0" text="Release date                       -" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Group>
+                  <Label fx:id="imdb_ratings" layoutX="322.0" layoutY="61.0" prefHeight="34.0" prefWidth="950.0" text="Imdb" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="M_name" layoutX="322.0" layoutY="14.0" prefHeight="34.0" prefWidth="950.0" text="Movie name                       " textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="mal_ratings" layoutX="322.0" layoutY="112.0" prefHeight="34.0" prefWidth="950.0" text="Mal" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="directors" layoutX="322.0" layoutY="169.0" prefHeight="34.0" prefWidth="950.0" text="Directors" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="writers" layoutX="322.0" layoutY="219.0" prefHeight="34.0" prefWidth="950.0" text="Writers" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="characters" layoutX="322.0" layoutY="275.0" prefHeight="34.0" prefWidth="950.0" text="Characters" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="genres" layoutX="322.0" layoutY="330.0" prefHeight="34.0" prefWidth="950.0" text="Genres" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="country_or" layoutX="322.0" layoutY="373.0" prefHeight="34.0" prefWidth="950.0" text="COO" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="languages" layoutX="322.0" layoutY="414.0" prefHeight="34.0" prefWidth="950.0" text="Languages" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="prod_company" layoutX="322.0" layoutY="471.0" prefHeight="34.0" prefWidth="950.0" text="Production" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="runtime" layoutX="322.0" layoutY="515.0" prefHeight="34.0" prefWidth="950.0" text="Runtime" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="rel_date" layoutX="322.0" layoutY="569.0" prefHeight="34.0" prefWidth="950.0" text="DOF" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

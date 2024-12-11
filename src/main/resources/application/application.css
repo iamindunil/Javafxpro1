@@ -1,0 +1,91 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.myAnchorPane {
+	-fx-background-radius:  20px;
+	-fx-border-radius: 20px;
+	-fx-background-image: url("photo.jpg");
+	/* Optional properties for background image behaviour */
+	-fx-background-repeat: space-repeat;  /* How to repeat the image */
+	-fx-background-size: cover;           /* Resize to fit the pane */
+	-fx-opacity: 0.6;
+ }
+
+.myAnchorPane2 {
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-background-color: #131B46;
+	-fx-opacity: 0.6;
+}
+
+.mypanex{
+    -fx-background-radius:  20px;
+    	-fx-border-radius: 20px;
+    	-fx-background-image: url("portal.jpg");
+    	-fx-background-size: cover;
+    	-fx-opacity: 0.0;
+}
+
+.myAnchorPaneq {
+	-fx-background-radius:  20px;
+	-fx-border-radius: 20px;
+	-fx-background-image: url("photo.jpg");
+	/* Optional properties for background image behaviour */
+	-fx-background-repeat: space-repeat;  /* How to repeat the image */
+	-fx-background-size: cover;           /* Resize to fit the pane */
+	-fx-opacity: 0.0;
+ }
+
+ .warntext{
+    -fx-background-color: transparent;
+    -fx-text-fill: #ae0303;
+    -fx-font-family: "Consolas", monospace; /* Monospace font for readability */
+    -fx-text-inner-color: #ae0303;
+    -fx-animated: ease-in-out;
+ }
+
+.mypanexq{
+    -fx-background-radius:  20px;
+    	-fx-border-radius: 20px;
+    	-fx-background-image: url("portal.jpg");
+    	-fx-background-size: cover;
+    	-fx-opacity: 0.6;
+}
+.mainpane{
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+}
+
+.myText-field {
+	-fx-background-color: transparent;
+	-fx-border-color: #999999;
+	-fx-border-width: 0px 0px 3px 0px;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-family: "Consolas", monospace; /* Monospace font for readability */
+	-fx-padding: 3px 3px 3px 3px;
+	-fx-text-inner-color: #FFFFFF;
+	-fx-animated: ease-in-out;
+}
+
+.myButton {
+	-fx-background-color: #4761F7;
+	-fx-text-fill: #FFFFFF;
+	-fx-cursor: hand;
+	-fx-animated:true;
+}
+
+.myButton:hover {
+	-fx-background-color: #6178F8;
+	-fx-text-fill: #FFFFFF;
+	-fx-cursor: hand;
+	-fx-animated:true;
+}
+
+.exitbutton{
+	-fx-background-color: #F96247;
+	-fx-background-radius: 50px;
+}
+
+.exitbutton:hover{
+	-fx-background-color: #FF3511;
+	-fx-background-radius: 50px;
+}
+

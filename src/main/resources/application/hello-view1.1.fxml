@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" styleClass="mainpane" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller1">
+   <children>
+      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="410.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@user.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="icon" fitHeight="43.0" fitWidth="46.0" layoutX="280.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true" scaleX="0.8" scaleY="0.8">
+         <image>
+            <Image url="@pngegg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="icon3" fitHeight="43.0" fitWidth="46.0" layoutX="280.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pngeg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="icon2" fitHeight="43.0" fitWidth="46.0" layoutX="280.0" layoutY="425.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pngeg.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="myAnchorPane" disable="true" opacity="0.0" prefHeight="600.0" prefWidth="1000.0" styleClass="mypanexq" stylesheets="@application.css">
+         <children>
+            <AnchorPane prefHeight="600.0" prefWidth="1000.0" styleClass="myAnchorPane2" stylesheets="@application.css" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="mypanex" prefHeight="600.0" prefWidth="1000.0" styleClass="myAnchorPaneq" stylesheets="@application.css">
+         <children>
+            <AnchorPane prefHeight="600.0" prefWidth="1000.0" styleClass="myAnchorPane2" stylesheets="@application.css" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="closeb" layoutX="955.0" layoutY="15.0" mnemonicParsing="false" onAction="#logout" styleClass="exitbutton" stylesheets="@application.css" text="X">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="textField1" layoutX="324.0" layoutY="350.0" onMouseEntered="#mentered1" onMouseExited="#mexit1" prefHeight="43.0" prefWidth="353.0" promptText="Create a new Password" styleClass="myText-field" stylesheets="@application.css">
+         <font>
+            <Font name="Corbel Light" size="24.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="textField2" layoutX="324.0" layoutY="425.0" onMouseEntered="#mentered1" onMouseExited="#mexit1" opacity="0.0" prefHeight="43.0" prefWidth="353.0" promptText="Confirm the password" styleClass="myText-field" stylesheets="@application.css">
+         <font>
+            <Font name="Corbel Light" size="24.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="warn" layoutX="345.0" layoutY="240.0" prefHeight="17.0" prefWidth="400.0" styleClass="warntext" stylesheets="@application.css" textAlignment="CENTER" textFill="#ae0303">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textField" layoutX="324.0" layoutY="275.0" onMouseEntered="#mentered" onMouseExited="#mexit" prefHeight="43.0" prefWidth="353.0" promptText="Username" styleClass="myText-field" stylesheets="@application.css">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </TextField>
+      <Button layoutX="425.0" layoutY="540.0" mnemonicParsing="false" onAction="#loginx" text="Already have an account?" />
+      <Button layoutX="436.0" layoutY="485.0" mnemonicParsing="false" onAction="#login" prefHeight="43.0" prefWidth="129.0" styleClass="myButton" stylesheets="@application.css" text="Sign up" />
+   </children>
+</AnchorPane>

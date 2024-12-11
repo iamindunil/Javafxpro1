@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+    <session-factory>
+    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://SQL:1234@DESKTOP-HRP200M:3306/test</property>
+    <property name="hibernate.connection.username">SQL</property>
+    <property name="hibernate.connection.password">1234</property>
+    <property name="show_sql">true</property>
+    <property name="format_sql">true</property>
+    <property name="hbm2ddl.auto">update</property>
+    </session-factory>
+</hibernate-configuration>

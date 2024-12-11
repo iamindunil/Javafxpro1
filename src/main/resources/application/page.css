@@ -1,0 +1,73 @@
+.label1 {
+    -fx-font-size: 3.5em;
+    -fx-font-weight: 400;
+    -fx-line-height: 4em;
+    -fx-text-fill: linear-gradient(to right, red, lightblue);
+    -fx-font-family: Google Sans, Helvetica Neue, sans-serif;
+    -fx-letter-spacing: normal;
+    -fx-margin-top: 18px
+}
+
+.label_prompt{
+    -fx-text-fill: white;
+}
+
+.label_user{
+    -fx-text-fill: linear-gradient(to right, red, yellow);
+}
+
+.pane1{
+    -fx-background-color: #121212;
+}
+
+.selpane {
+    -fx-background-color: #3C3C3C; /* Light gray background */
+    -fx-background-radius: 10;
+    -fx-border-radius: 20px; /* Rounded corners */
+    -fx-padding: 10px; /* Padding around content */
+    -fx-spacing: 5px; /* Spacing between elements within box */
+    -fx-pref-width: 220px;
+    -fx-pref-height: 280px;
+    -fx-opacity:0.8;
+}
+
+.imgview{
+    -fx-padding: 0px;
+    -fx-margin:0px;
+    -fx-image:fill;
+}
+
+.selpane:hover{
+    -fx-background-color: #808080;  /* Light gray background */
+    -fx-background-radius: 10;
+    -fx-border-radius: 20px;  /* Rounded corners */
+    -fx-padding: 10px;        /* Padding around content */
+    -fx-spacing: 5px;             /* Spacing between elements within box */
+    -fx-pref-width: 220px;
+    -fx-pref-height: 280px;
+}
+
+.myAnchorPane1 {
+	-fx-background-radius:  20px;
+	-fx-border-radius: 20px;
+	-fx-background-image: url("Anime.jpg");
+	-fx-background-size: cover;           /* Resize to fit the pane */
+	-fx-opacity: 0.4;
+ }
+
+.prompt-field {
+    -fx-opacity:0.8;
+    -fx-background-color: #3C3C3C;  /* Light gray background */
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;       /* Rounded corners */
+    -fx-padding: 10px;            /* Padding around text */
+    -fx-font-family: "Consolas", monospace; /* Monospace font for readability */
+    -fx-font-size: 18px;           /* Large font size */
+    -fx-control-inner-background: transparent; /* Remove default text field background */
+    -fx-border-color: #808080;    /* Light gray border */
+    -fx-pref-height: 40px;        /* Preferred height for the text field */
+}
+
+.prompt-field:hover {
+    -fx-opacity:1.0;
+}
